@@ -13,3 +13,4 @@ while counter != 10:
     count = count + 1
 
 #Print sum of the ten numbers
+print(result)
