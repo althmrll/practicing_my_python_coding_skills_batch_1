@@ -6,7 +6,9 @@ odd = 0
 
 #Ask user ot input ten numbers
 while counter != 10:
+    print ("numbers already inputted:", counter)
     input_number = int(input("Enter number:"))
+    print ("")
     counter = counter + 1
 
 #Determine whether the inputted number is odd
