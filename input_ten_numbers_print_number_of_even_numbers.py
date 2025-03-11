@@ -2,6 +2,9 @@ global counter
 global even
 
 #ask user to input ten numbers
+counter=0
+even= 0
+
 while counter!=10:
     print("counter:", counter)
     input_number= int(input("Enter number:"))
