@@ -11,7 +11,7 @@ counter= counter+1
 
 #Ask user to input other 9 numbers
 while counter!=10:
-    print("inputted number:", counter)
+    print("\ninputted number:", counter)
     other_numbers=int(input("Enter another number:"))
     counter= counter+1 
     total=total+other_numbers #Find total of the other 9 numbers
@@ -20,4 +20,4 @@ while counter!=10:
 difference= first_number-total
 
 #Print their difference
-print("difference:", difference)
+print("\ndifference:", difference)
